@@ -1,0 +1,12 @@
+{
+    "tasks": {
+      "test": {
+        "cache": false,
+        "persistent": true
+      },
+      "coverage": {
+        "dependsOn": ["test"],
+        "cache": false
+      }
+    }
+  }
